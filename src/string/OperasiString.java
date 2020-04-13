@@ -2,17 +2,17 @@ package string;
 
 public class OperasiString {
     public static void main(String[] args) {
-        String kota = "Yogyakarta";
+        String kota = "Bandung";
 
         System.out.println(kota);
 
-        char[] uniskaChar = { 'U','N','I','S','K','A' };
-        String uniskaString = new String(uniskaChar);
-        System.out.println(uniskaString);
+        char[] itbChar = { 'I','T','B' };
+        String itbString = new String(itbChar);
+        System.out.println(itbString);
 
         System.out.println(kota.toUpperCase());
         System.out.println(kota.toLowerCase());
+        System.out.println(kota.substring(0,5));
         System.out.println(kota.substring(5));
-        System.out.println(kota.substring(0,4));
     }
 }
